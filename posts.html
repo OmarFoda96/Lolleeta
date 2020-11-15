@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/font-awesome.css">
+        <link rel="stylesheet" href="css/styles.css"> 
+        <link rel="stylesheet" href="css/flags.css">
+        <link rel="stylesheet" href="css/jquery.dateselect.css">
+        <link rel="stylesheet" href="css/timepicker.css">
+        <link href="https://fonts.googleapis.com/css?family=Leckerli+One" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
+        <title>Lolleeta</title>
+    </head>
+    <body>
+        <div id="search">
+        <!--Start NavBar-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" style="marging-bottom: 130px;">
+            <div class="container">
+          <a class="navbar-brand" id="brand" href="home.html">Lolleeta</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+         <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="stylists.html">Directory</a>
+              </li>                
+              <li class="nav-item active">
+                <a class="nav-link" href="posts.html">Requests <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pricing.html">Pricing <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About <span class="sr-only">(current)</span></a>
+              </li>
+            </ul>
+           <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="login.html">Login</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="registeration.html">Sign up</a>
+              </li>
+            </ul>
+        </div>
+        </div>
+        </nav>
+            <!--end NavBar-->
+  <!-- the container for your first pagination area -->
+
+        <!--start Search Panel-->
+        <div class="container">
+        <div class="mainRow">
+        <div class="row">
+               
+        </div>
+        <div class="row">
+            <div class="col-md-3 col-xs-12 controlPanel">
+                    <div class="container">
+                     <div class="main-container">
+                        <div class="col-md-12 form-title">
+                            <h2>@lang("Refine Your Search")</h2>
+                        </div>
+                         <form>
+                            <div class="form-group">
+                                <label>Sorting</label><br>
+                                <select>
+                                    <option>Most Viewed</option>
+                                    <option>Top Rated</option>
+                                    <option>Highest Price</option>
+                                    <option>Lowest Price</option>
+                                </select><br>
+                                <label>Country</label><br>
+                              <select>
+                                    <option>All</option>
+                                </select>
+                            </div>
+                             <div class="form-group">
+                                <label>Gender</label><br>
+                                <select>
+                                    <option>All</option>
+                                </select><br>
+                                <label>From</label><br>
+                                <select>
+                                    <option>All</option>
+                                </select><br>
+                            </div>
+                             <div class="butn">
+                                <button class="btn btn-primary">SEARCH</button>
+                            </div>
+                         </form>
+
+                     </div>
+                    </div>
+                  </div>
+        
+        <!--End Search Panel-->
+        <!--start stylists Panel-->
+            <div class="col-md-9 col-xs-12 ">
+            <div class="col-md-12 postBtn">
+                <div class="post">
+                    <button id="postBtn" class="btn"><i class="fa fa-paper-plane"></i> @lang("Post A Job")</button>
+                </div> 
+            </div>
+             <div class="col-md-12 postat">
+                <div class="row"><a href="jobs.html" class="col-md-10 postHead">Make Up Artist</a> <p class="col-md-2 duration">1 Month</p></div>
+                 <div class="row"><p class="col-md-12 postprice">@lang("5000 EGP")</p></div>
+                 <div class="row"><p class="col-md-12 postDate">@lang("Date")</p></div>
+                 <div class="row"><p class="col-md-12 postLocation">@lang("Location")</p></div>
+                 <div class="row"><p class="col-md-3 col-sm-12 sepcs">@lang("specefications")</p><div class="col"></div> <button class="col-md-2 btn apply">@lang("Apply Now")</button> </div>
+            </div>
+             </div>   
+            </div>
+        <!--end stylists Panel-->
+        </div>
+        </div>
+        </div>
+        <div class="overlay"></div>
+        <div class="postJob">
+            <div class="postForm">
+                <div class="container">
+                    <form>
+                        <div class="form-group">
+                            <h2>Post A Job</h2>
+                        </div>
+                        <div class="form-group">
+                            <label>Category</label><br>
+                            <input type="text">
+                        </div>
+                        <div class="form-group">
+                            <label>Description</label><br>
+                            <textarea></textarea>
+                        </div>
+                        <div class="row form-group">
+                           <div class="col-md-6">
+                                <label>Category</label><br>
+                               <select>
+                                    <option value="make-up">Makeup</option>
+                                    <option value="hair">Hair</option>
+                                    <option value="hair&make-up">Hair &amp; Make-up</option>
+                                    <option value="body-care">Body Care</option>
+                                    <option value="spa">Spa</option>
+                               </select>
+                           </div>
+                           <div class="col-md-6">
+                                <label>Sub Category</label><br>
+                               <select>
+                                    <option>Bridal makeup</option>
+                                            <option>Soiree</option>
+                                            <option>Cosmetic</option>
+                                            <option>Airbrush</option>
+                                            <option>MakeOver</option>
+                                            <option>Special Ossasion</option>
+                                            <option>TV & Films</option>
+                                            <option>Fashion</option>
+                                            <option>Special Effects</option>
+                                            <option>Arabic</option>
+                                            <option>Asian</option>
+                                            <option>Courses</option>
+
+                                            <option>Coloring</option>
+                                            <option>HairStyle</option>
+                                            <option>Keratin</option>
+                                            <option>Hair Care</option>
+                                            <option>Hijab Style</option>
+                                            <option>Hair Dryers</option>
+
+                                            <option>Hair Removal</option>
+                                            <option>SPA</option>
+                                            <option>Pedicure</option>
+                                            <option>Manicure</option>
+                                            <option>Henna</option>
+                                            <option>Tatto</option>
+                               </select>
+                           </div>
+                        </div>
+                        <div class="row form-group">
+                           <div class="col-md-6">
+                                <label>Budget</label><br>
+                               <input type="number">
+                           </div>
+                           <div class="col-md-6">
+                                <label>Country</label><br>
+                                <select>
+                                <option>Egypt</option>
+                               </select>
+                           </div>
+                        </div>
+                       <div class="row form-group">
+                           <div class="col-md-4">
+                                <label>Day</label><br>
+                                <input data-select="date">
+                           </div>
+                           <div class="col-md-4">
+                                <label>Time From</label><br>
+                                <input class="fromTime" type="text">    
+                           </div>
+                           <div class="col-md-4">
+                                <label>To</label><br>
+                                <input class="toTime" type="text">       
+                           </div>
+                        </div>
+                        
+                        <input type="submit" class="sub" value="Post">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!--start footer-->
+        <section id="footer">
+        <div class="container">
+            <div class="footer">
+                <div class="row">
+                    <div class="col-md-6 col-xs-12">
+                    <h4>Company</h4>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Terms of use</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+                    </div>
+                 <div class="col-md-6 col-xs-12">
+                    <h4>Join Us On</h4>
+                <ul class="footer-social">
+                    <li><a href="#"><span><i class="fa fa-facebook"></i>&nbsp;&nbsp;</span>Facebook</a></li>
+                    <li><a href="#"><i class="fa fa-instagram">&nbsp;&nbsp;</i>Instagram</a></li>
+                    <li><a href="#"><span><i class="fa fa-twitter">&nbsp;&nbsp;</i></span>Twitter</a></li>
+                    <li><a href="#"><span><i class="fa fa-linkedin">&nbsp;&nbsp;</i></span>Linked In</a></li>
+                </ul>
+                </div>
+            </div>
+            </div>
+            </div>
+        
+        </section>
+        <!--start footer-->
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src="js/jquery.mousewheel.js"></script>
+        <script src="js/jquery.dateselect.js"></script>
+        <script src="js/timepicker.js"></script>
+        <script>$('.fromTime').timepicker();</script>
+        <script>$('.toTime').timepicker();</script>
+        <script src="js/baguetteBox.js"></script>
+        <script> baguetteBox.run('.tz-gallery'); </script>
+        <script src="js/jquery.nicescroll.min.js"></script>
+        <script src="js/jquery.flagstrap.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script>
+          $("#demo").countrySelect();
+        </script>
+        <script src="js/main.js"></script>
+        
+    </body>
+</html>
+
+
+
+          

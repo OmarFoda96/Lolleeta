@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/font-awesome.css">
+        <link rel="stylesheet" href="css/styles.css"> 
+        <link rel="stylesheet" href="css/dropdown.css">
+        <link rel="stylesheet" href="fonts/Adam.otf">
+        <link href="https://fonts.googleapis.com/css?family=Leckerli+One" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
+        <title>Lolleeta</title>
+    </head>
+    <body style="background-color: var(--second-bg-color);">
+        <!--Start NavBar-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container">
+          <a class="navbar-brand" id="brand" href="home.html"><img src="img/unnamed.png"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+         <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="nav navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="stylists.html">Directory</a>
+              <li class="nav-item">
+                <a class="nav-link" href="posts.html">Requests <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pricing.html">Pricing <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About <span class="sr-only">(current)</span></a>
+              </li>
+            </ul>
+           <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="login.html">Login</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="registeration.html">Sign up</a>
+              </li>
+            </ul>
+        </div>
+        </div>
+        </nav>
+            <!--end NavBar-->                       
+        
+        <!--Start Search and filter section-->
+        <section id="banner">
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img class="d-block w-100" src="img/bbb.jpg" alt="First slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1 class="landing-header-title">FIND HAIR &amp; MAKEUP ARTISTS</h1>
+                        <p class="landing-header-tagline-title">relax and let the beauty comes to your home or choose your perfect beauty salon to go, just select your city, specialty and connect with top stylists from all over the world
+                        </p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="img/banner3.jpg" alt="Second slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1 class="landing-header-title">PROFESSIONAL MAKEUP ARTISTS &amp; STYLISTS</h1>
+                        <p class="landing-header-tagline-title">Join the major market of beauty seekers.
+                            now Boost your career by joining lolleeta Directory. Showcase best of your skills on your profile and get discovered.
+                        </p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="img/banner2.jpg" alt="Third slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1 class="landing-header-title">BRIDES</h1>
+                        <p class="landing-header-tagline-title">Stop feeling nervous about your big day,just relax and let Lolleeta get all you need to make your dream look become a reality.</p>
+                  </div>
+                </div>
+                  <div class="carousel-item">
+                  <img class="d-block w-100" src="img/banner4.jpg" alt="Third slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1 class="landing-header-title">Hair styling</h1>
+                        <p class="landing-header-tagline-title">Change your hair cut, color and make a new look while you setting at home ? 
+                            Or go to the nearest beauty salon , always be charming .?
+                        </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+                <section id="filtering">
+            <div class="filtering">
+                <form class="flirtingForm">
+                    <div class="banner-content">
+                        <div class="container">
+                            <div class="row">
+                                <form class="form-inline searchForm">
+                                     <div class="col-md-2 col-xs-12 ">
+                                        <select class="searchSelect">
+                                            <option>Categories</option>
+                                            <option value="make-up">Makeup</option>
+                                            <option value="hair">Hair</option>
+                                            <option value="hair&make-up">Hair &amp; Make-up</option>
+                                            <option value="body-care">Body Care</option>
+                                            <option value="spa">Spa</option>
+                                         </select>
+                                     </div>
+                                     <div class="col-md-2 col-xs-12 ">
+                                        <select class="searchSelect">
+                                            <option>Sub Categories</option>
+                                            <option>Bridal makeup</option>
+                                            <option>Soiree</option>
+                                            <option>Cosmetic</option>
+                                            <option>Airbrush</option>
+                                            <option>MakeOver</option>
+                                            <option>Special Ossasion</option>
+                                            <option>TV & Films</option>
+                                            <option>Fashion</option>
+                                            <option>Special Effects</option>
+                                            <option>Arabic</option>
+                                            <option>Asian</option>
+                                            <option>Courses</option>
+
+                                            <option>Coloring</option>
+                                            <option>HairStyle</option>
+                                            <option>Keratin</option>
+                                            <option>Hair Care</option>
+                                            <option>Hijab Style</option>
+                                            <option>Hair Dryers</option>
+
+                                            <option>Hair Removal</option>
+                                            <option>SPA</option>
+                                            <option>Pedicure</option>
+                                            <option>Manicure</option>
+                                            <option>Henna</option>
+                                            <option>Tatto</option>
+
+
+        </select>
+                                    </div>
+                                     <div class="col-md-2 col-xs-12 ">
+                                        <select class="searchSelect">
+                                            <option>Country</option>
+                                            <option value="AF">Afghanistan</option>
+                                            <option value="AX">Åland Islands</option>
+                                            <option value="AL">Albania</option>
+                                            <option value="DZ">Algeria</option>
+                                            <option value="AS">American Samoa</option>
+                                            <option value="AD">Andorra</option>
+                                            <option value="AO">Angola</option>
+                                            <option value="AI">Anguilla</option>
+                                            <option value="AQ">Antarctica</option>
+                                            <option value="AG">Antigua and Barbuda</option>
+                                            <option value="AR">Argentina</option>
+                                            <option value="AM">Armenia</option>
+                                            <option value="AW">Aruba</option>
+                                            <option value="AU">Australia</option>
+                                            <option value="AT">Austria</option>
+                                            <option value="AZ">Azerbaijan</option>
+                                            <option value="BS">Bahamas</option>
+                                            <option value="BH">Bahrain</option>
+                                            <option value="BD">Bangladesh</option>
+                                            <option value="BB">Barbados</option>
+                                            <option value="BY">Belarus</option>
+                                            <option value="BE">Belgium</option>
+                                            <option value="BZ">Belize</option>
+                                            <option value="BJ">Benin</option>
+                                            <option value="BM">Bermuda</option>
+                                            <option value="BT">Bhutan</option>
+                                            <option value="BO">Bolivia, Plurinational State of</option>
+                                            <option value="BQ">Bonaire, Sint Eustatius and Saba</option>
+                                            <option value="BA">Bosnia and Herzegovina</option>
+                                            <option value="BW">Botswana</option>
+                                            <option value="BV">Bouvet Island</option>
+                                            <option value="BR">Brazil</option>
+                                            <option value="IO">British Indian Ocean Territory</option>
+                                            <option value="BN">Brunei Darussalam</option>
+                                            <option value="BG">Bulgaria</option>
+                                            <option value="BF">Burkina Faso</option>
+                                            <option value="BI">Burundi</option>
+                                            <option value="KH">Cambodia</option>
+                                            <option value="CM">Cameroon</option>
+                                            <option value="CA">Canada</option>
+                                            <option value="CV">Cape Verde</option>
+                                            <option value="KY">Cayman Islands</option>
+                                            <option value="CF">Central African Republic</option>
+                                            <option value="TD">Chad</option>
+                                            <option value="CL">Chile</option>
+                                            <option value="CN">China</option>
+                                            <option value="CX">Christmas Island</option>
+                                            <option value="CC">Cocos (Keeling) Islands</option>
+                                            <option value="CO">Colombia</option>
+                                            <option value="KM">Comoros</option>
+                                            <option value="CG">Congo</option>
+                                            <option value="CD">Congo, the Democratic Republic of the</option>
+                                            <option value="CK">Cook Islands</option>
+                                            <option value="CR">Costa Rica</option>
+                                            <option value="CI">Côte d'Ivoire</option>
+                                            <option value="HR">Croatia</option>
+                                            <option value="CU">Cuba</option>
+                                            <option value="CW">Curaçao</option>
+                                            <option value="CY">Cyprus</option>
+                                            <option value="CZ">Czech Republic</option>
+                                            <option value="DK">Denmark</option>
+                                            <option value="DJ">Djibouti</option>
+                                            <option value="DM">Dominica</option>
+                                            <option value="DO">Dominican Republic</option>
+                                            <option value="EC">Ecuador</option>
+                                            <option value="EG">Egypt</option>
+                                            <option value="SV">El Salvador</option>
+                                            <option value="GQ">Equatorial Guinea</option>
+                                            <option value="ER">Eritrea</option>
+                                            <option value="EE">Estonia</option>
+                                            <option value="ET">Ethiopia</option>
+                                            <option value="FK">Falkland Islands (Malvinas)</option>
+                                            <option value="FO">Faroe Islands</option>
+                                            <option value="FJ">Fiji</option>
+                                            <option value="FI">Finland</option>
+                                            <option value="FR">France</option>
+                                            <option value="GF">French Guiana</option>
+                                            <option value="PF">French Polynesia</option>
+                                            <option value="TF">French Southern Territories</option>
+                                            <option value="GA">Gabon</option>
+                                            <option value="GM">Gambia</option>
+                                            <option value="GE">Georgia</option>
+                                            <option value="DE">Germany</option>
+                                            <option value="GH">Ghana</option>
+                                            <option value="GI">Gibraltar</option>
+                                            <option value="GR">Greece</option>
+                                            <option value="GL">Greenland</option>
+                                            <option value="GD">Grenada</option>
+                                            <option value="GP">Guadeloupe</option>
+                                            <option value="GU">Guam</option>
+                                            <option value="GT">Guatemala</option>
+                                            <option value="GG">Guernsey</option>
+                                            <option value="GN">Guinea</option>
+                                            <option value="GW">Guinea-Bissau</option>
+                                            <option value="GY">Guyana</option>
+                                            <option value="HT">Haiti</option>
+                                            <option value="HM">Heard Island and McDonald Islands</option>
+                                            <option value="VA">Holy See (Vatican City State)</option>
+                                            <option value="HN">Honduras</option>
+                                            <option value="HK">Hong Kong</option>
+                                            <option value="HU">Hungary</option>
+                                            <option value="IS">Iceland</option>
+                                            <option value="IN">India</option>
+                                            <option value="ID">Indonesia</option>
+                                            <option value="IR">Iran, Islamic Republic of</option>
+                                            <option value="IQ">Iraq</option>
+                                            <option value="IE">Ireland</option>
+                                            <option value="IM">Isle of Man</option>
+                                            <option value="IL">Israel</option>
+                                            <option value="IT">Italy</option>
+                                            <option value="JM">Jamaica</option>
+                                            <option value="JP">Japan</option>
+                                            <option value="JE">Jersey</option>
+                                            <option value="JO">Jordan</option>
+                                            <option value="KZ">Kazakhstan</option>
+                                            <option value="KE">Kenya</option>
+                                            <option value="KI">Kiribati</option>
+                                            <option value="KP">Korea, Democratic People's Republic of</option>
+                                            <option value="KR">Korea, Republic of</option>
+                                            <option value="KW">Kuwait</option>
+                                            <option value="KG">Kyrgyzstan</option>
+                                            <option value="LA">Lao People's Democratic Republic</option>
+                                            <option value="LV">Latvia</option>
+                                            <option value="LB">Lebanon</option>
+                                            <option value="LS">Lesotho</option>
+                                            <option value="LR">Liberia</option>
+                                            <option value="LY">Libya</option>
+                                            <option value="LI">Liechtenstein</option>
+                                            <option value="LT">Lithuania</option>
+                                            <option value="LU">Luxembourg</option>
+                                            <option value="MO">Macao</option>
+                                            <option value="MK">Macedonia, the former Yugoslav Republic of</option>
+                                            <option value="MG">Madagascar</option>
+                                            <option value="MW">Malawi</option>
+                                            <option value="MY">Malaysia</option>
+                                            <option value="MV">Maldives</option>
+                                            <option value="ML">Mali</option>
+                                            <option value="MT">Malta</option>
+                                            <option value="MH">Marshall Islands</option>
+                                            <option value="MQ">Martinique</option>
+                                            <option value="MR">Mauritania</option>
+                                            <option value="MU">Mauritius</option>
+                                            <option value="YT">Mayotte</option>
+                                            <option value="MX">Mexico</option>
+                                            <option value="FM">Micronesia, Federated States of</option>
+                                            <option value="MD">Moldova, Republic of</option>
+                                            <option value="MC">Monaco</option>
+                                            <option value="MN">Mongolia</option>
+                                            <option value="ME">Montenegro</option>
+                                            <option value="MS">Montserrat</option>
+                                            <option value="MA">Morocco</option>
+                                            <option value="MZ">Mozambique</option>
+                                            <option value="MM">Myanmar</option>
+                                            <option value="NA">Namibia</option>
+                                            <option value="NR">Nauru</option>
+                                            <option value="NP">Nepal</option>
+                                            <option value="NL">Netherlands</option>
+                                            <option value="NC">New Caledonia</option>
+                                            <option value="NZ">New Zealand</option>
+                                            <option value="NI">Nicaragua</option>
+                                            <option value="NE">Niger</option>
+                                            <option value="NG">Nigeria</option>
+                                            <option value="NU">Niue</option>
+                                            <option value="NF">Norfolk Island</option>
+                                            <option value="MP">Northern Mariana Islands</option>
+                                            <option value="NO">Norway</option>
+                                            <option value="OM">Oman</option>
+                                            <option value="PK">Pakistan</option>
+                                            <option value="PW">Palau</option>
+                                            <option value="PS">Palestinian Territory, Occupied</option>
+                                            <option value="PA">Panama</option>
+                                            <option value="PG">Papua New Guinea</option>
+                                            <option value="PY">Paraguay</option>
+                                            <option value="PE">Peru</option>
+                                            <option value="PH">Philippines</option>
+                                            <option value="PN">Pitcairn</option>
+                                            <option value="PL">Poland</option>
+                                            <option value="PT">Portugal</option>
+                                            <option value="PR">Puerto Rico</option>
+                                            <option value="QA">Qatar</option>
+                                            <option value="RE">Réunion</option>
+                                            <option value="RO">Romania</option>
+                                            <option value="RU">Russian Federation</option>
+                                            <option value="RW">Rwanda</option>
+                                            <option value="BL">Saint Barthélemy</option>
+                                            <option value="SH">Saint Helena, Ascension and Tristan da Cunha</option>
+                                            <option value="KN">Saint Kitts and Nevis</option>
+                                            <option value="LC">Saint Lucia</option>
+                                            <option value="MF">Saint Martin (French part)</option>
+                                            <option value="PM">Saint Pierre and Miquelon</option>
+                                            <option value="VC">Saint Vincent and the Grenadines</option>
+                                            <option value="WS">Samoa</option>
+                                            <option value="SM">San Marino</option>
+                                            <option value="ST">Sao Tome and Principe</option>
+                                            <option value="SA">Saudi Arabia</option>
+                                            <option value="SN">Senegal</option>
+                                            <option value="RS">Serbia</option>
+                                            <option value="SC">Seychelles</option>
+                                            <option value="SL">Sierra Leone</option>
+                                            <option value="SG">Singapore</option>
+                                            <option value="SX">Sint Maarten (Dutch part)</option>
+                                            <option value="SK">Slovakia</option>
+                                            <option value="SI">Slovenia</option>
+                                            <option value="SB">Solomon Islands</option>
+                                            <option value="SO">Somalia</option>
+                                            <option value="ZA">South Africa</option>
+                                            <option value="GS">South Georgia and the South Sandwich Islands</option>
+                                            <option value="SS">South Sudan</option>
+                                            <option value="ES">Spain</option>
+                                            <option value="LK">Sri Lanka</option>
+                                            <option value="SD">Sudan</option>
+                                            <option value="SR">Suriname</option>
+                                            <option value="SJ">Svalbard and Jan Mayen</option>
+                                            <option value="SZ">Swaziland</option>
+                                            <option value="SE">Sweden</option>
+                                            <option value="CH">Switzerland</option>
+                                            <option value="SY">Syrian Arab Republic</option>
+                                            <option value="TW">Taiwan, Province of China</option>
+                                            <option value="TJ">Tajikistan</option>
+                                            <option value="TZ">Tanzania, United Republic of</option>
+                                            <option value="TH">Thailand</option>
+                                            <option value="TL">Timor-Leste</option>
+                                            <option value="TG">Togo</option>
+                                            <option value="TK">Tokelau</option>
+                                            <option value="TO">Tonga</option>
+                                            <option value="TT">Trinidad and Tobago</option>
+                                            <option value="TN">Tunisia</option>
+                                            <option value="TR">Turkey</option>
+                                            <option value="TM">Turkmenistan</option>
+                                            <option value="TC">Turks and Caicos Islands</option>
+                                            <option value="TV">Tuvalu</option>
+                                            <option value="UG">Uganda</option>
+                                            <option value="UA">Ukraine</option>
+                                            <option value="AE">United Arab Emirates</option>
+                                            <option value="GB">United Kingdom</option>
+                                            <option value="US">United States</option>
+                                            <option value="UM">United States Minor Outlying Islands</option>
+                                            <option value="UY">Uruguay</option>
+                                            <option value="UZ">Uzbekistan</option>
+                                            <option value="VU">Vanuatu</option>
+                                            <option value="VE">Venezuela, Bolivarian Republic of</option>
+                                            <option value="VN">Viet Nam</option>
+                                            <option value="VG">Virgin Islands, British</option>
+                                            <option value="VI">Virgin Islands, U.S.</option>
+                                            <option value="WF">Wallis and Futuna</option>
+                                            <option value="EH">Western Sahara</option>
+                                            <option value="YE">Yemen</option>
+                                            <option value="ZM">Zambia</option>
+                                            <option value="ZW">Zimbabwe</option>
+        </select>
+                                    </div>
+                                     <div class="col-md-2 col-xs-12 ">
+                                        <select class="searchSelect">
+                                            <option>City</option>
+                                        </select>
+                                    </div>
+                                     <div class="col-md-2 col-xs-12">
+                                        <button class="btn searchBtn">Search</button>
+                                    </div>
+                                </form>
+                        </div>
+                        </div>
+                    </div>
+                </form>
+
+                    </div>
+                </section>
+            <!--<div class="landing-header-content">
+                <div class="landing-header-background"></div>
+                <div class="carousel-caption d-none d-md-block landing-header-text">
+                    <h1 class="landing-header-title">Beauty's Knocking</h1>
+                    <h2 class="landing-header-tagline-title">Book in-home hair &amp; makeup from vetted beauty professionals.</h2>
+                </div>
+            </div>-->
+            
+        </section>
+        <!--End Search and filter section-->
+        
+        <!--start how it work Section-->
+        <section id="howItWork">
+            <div class="container">
+            <div class="heading text-center">
+                <h2>How It Works</h2>
+                <h5>This Is How Our Web Site Working</h5>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-xs-12 howSquares"> 
+                        <i class="fa fa-search fa-2x circle"></i>
+                        <h3>Search</h3>
+                        <p>Choose Your City, desired service and working place to see list of the availible stylists</p>
+                </div>
+                <div class="col-md-4 col-xs-12 howSquares"> 
+                        <i class="fa fa-filter fa-2x circle"></i>
+                        <h3>Browse & Filter</h3>
+                        <p>Book Your Doctor's Date From Here And Choose Your Nerest Hospital Too</p>
+                </div>
+                <div class="col-md-4 col-xs-12 howSquares"> 
+                        <i class="fa fa-phone fa-2x circle"></i>
+                        <h3>Contact</h3>
+                        <p>Feel free to Contact your favorite Stylist from here</p>
+                </div>
+            </div>
+            </div>
+        </section>
+        <!--end how it work Section-->
+
+        <!--start most viewed services-->
+        <section id="mostViewed">
+            <div class="container">
+            <div class="heading text-center">
+                <h2>Most Viewed Servics</h2>
+            </div>
+                <div class="pad">
+                <div class="row">
+                <div class="col-md-3 col-xs-12 featured"> 
+                    <a href="profile.html">
+                    <div class="stylist-bg" style="background-image: url(img/1.Bridal%20Makeup.jpg);  background-size: cover; background-repeat: no-repeat;"> <!--hna 8yr l gwa l style "bacground-imag" 3shan t8yr l sora l wara-->
+                        <div class="artistInfo">
+                            <h4>Bridal Makeup</h4> <!--hna l data bta3t l artist-->
+                        </div>
+                    </div>
+                    </a>
+                </div>
+                <div class="col-md-3 col-xs-12 featured">
+                    <a href="profile.html">
+                    <div class="stylist-bg" style=" background-image:url(img/2.Hair%20Cut%20&%20Coloring.jpg);  background-size: cover; background-repeat: no-repeat;">
+                        <div class="artistInfo">
+                            <h4>Hair Cut &amp; Coloring</h4>
+
+                        </div>
+                    </div>
+                    </a>
+                </div>
+                <div class="col-md-3 col-xs-12 featured">
+                    <a href="profile.html">
+                    <div class="stylist-bg" style=" background-image:url(img/3.SPA.jpg);  background-size: cover; background-repeat: no-repeat;">
+                        <div class="artistInfo">
+                            <h4>SPA</h4>
+
+                        </div>
+                    </div>
+                    </a>
+                </div>
+                    <div class="col-md-3 col-xs-12 featured">
+                    <a href="profile.html">
+                    <div class="stylist-bg" style=" background-image:url(img/4.Arabic.jpg);  background-size: cover; background-repeat: no-repeat;">
+                        <div class="artistInfo">
+                            <h4>Arabic</h4>
+
+                        </div>
+                    </div>
+                    </a>
+                </div>                    
+            </div>
+                <div class="row">
+                <div class="col-md-3 col-xs-12 featured"> 
+                    <a href="profile.html">
+                    <div class="stylist-bg" style="background-image: url(img/5.African.jpg);  background-size: cover; background-repeat: no-repeat;"> <!--hna 8yr l gwa l style "bacground-imag" 3shan t8yr l sora l wara-->
+                        <div class="artistInfo">
+                            <h4>African</h4> <!--hna l data bta3t l artist-->
+                        </div>
+                    </div>
+                    </a>
+                </div>
+                <div class="col-md-3 col-xs-12 featured">
+                    <a href="profile.html">
+                    <div class="stylist-bg" style=" background-image:url(img/6.Hair%20Removal.jpg);  background-size: cover; background-repeat: no-repeat;">
+                        <div class="artistInfo">
+                            <h4>Hair Removal</h4>
+
+                        </div>
+                    </div>
+                    </a>
+                </div>
+                <div class="col-md-3 col-xs-12 featured">
+                    <a href="profile.html">
+                    <div class="stylist-bg" style=" background-image:url(img/7.Henna%20&%20Tattoo.jpg);  background-size: cover; background-repeat: no-repeat;">
+                        <div class="artistInfo">
+                            <h4>Henna &amp; Tattoo</h4>
+
+                        </div>
+                    </div>
+                    </a>
+                </div>
+                <div class="col-md-3 col-xs-12 featured">
+                    <a href="profile.html">
+                    <div class="stylist-bg" style=" background-image:url(img/8.Indian.jpg);  background-size: cover; background-repeat: no-repeat;">
+                        <div class="artistInfo">
+                            <h4>Indian</h4>
+
+                        </div>
+                    </div>
+                    </a>
+                </div>
+                </div>    
+            </div>
+            </div>
+        </section>
+        <!--end most viewed services-->
+
+        <!--start featured Stylists-->
+        <!--
+        <section id="featuredStylists">
+            <div class="container">
+            <div class="heading text-center">
+                <h2>featured Stylists</h2>
+            </div>
+             <div class="row">
+                <div class="col-md-4 col-xs-12 featured"> 
+                    <a href="profile.html">
+                    <div class="stylist-bg" style="background-image: url(img/download.jpg);  background-size: cover; background-repeat: no-repeat;"> 
+                        <div class="artistImg">
+                            <img src="img/photo-1.jpg" class="artistImg" alt="">
+                        </div>
+                        <div class="artistInfo">
+                            <h4>Tomy Reviero</h4> 
+                            <h6>Cairo</h6> 
+                        </div>
+                    </div>
+                    </a>
+                </div>
+                <div class="col-md-4 col-xs-12 featured">
+                    <a href="profile.html">
+                    <div class="stylist-bg" style=" background-image:url(img/marry.jpg);  background-size: cover; background-repeat: no-repeat;">
+                        <div class="artistImg">
+                            <img src="img/photo-1.jpg" class="artistImg" alt="">
+                        </div>
+                        <div class="artistInfo">
+                            <h4>Tomy Reviero</h4>
+                            <h6>Cairo</h6>
+                        </div>
+                    </div>
+                    </a>
+                </div>
+                <div class="col-md-4 col-xs-12 featured">
+                    <a href="profile.html">
+                    <div class="stylist-bg" style=" background-image:url(img/download.jpg);  background-size: cover; background-repeat: no-repeat;">
+                        <div class="artistImg">
+                            <img src="img/photo-1.jpg" class="artistImg" alt="">
+                        </div>
+                        <div class="artistInfo">
+                            <h4>Tomy Reviero</h4>
+                            <h6>Cairo</h6>
+                        </div>
+                    </div>
+                    </a>
+                </div>
+                    
+            </div>
+            </div>
+        </section>
+        -->
+        <!--end featured Stylists-->
+       <!--start footer-->
+        <section id="footer">
+        <div class="container">
+            <div class="footer">
+                <div class="row">
+                    <div class="col-md-6 col-xs-12">
+                    <h4>Company</h4>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Terms of use</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+                    </div>
+                 <div class="col-md-6 col-xs-12">
+                    <h4>Join Us On</h4>
+                <ul class="footer-social">
+                    <li><a href="#"><span><i class="fa fa-facebook"></i>&nbsp;&nbsp;</span>Facebook</a></li>
+                    <li><a href="#"><i class="fa fa-instagram">&nbsp;&nbsp;</i>Instagram</a></li>
+                    <li><a href="#"><span><i class="fa fa-twitter">&nbsp;&nbsp;</i></span>Twitter</a></li>
+                    <li><a href="#"><span><i class="fa fa-linkedin">&nbsp;&nbsp;</i></span>Linked In</a></li>
+                </ul>
+                </div>
+            </div>
+            </div>
+            </div>
+        </section>
+        <!--start footer-->
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src="js/bootstrap-dropdownhover.min.js"></script>
+        <script src="js/baguetteBox.js"></script>
+        <script>baguetteBox.run('.tz-gallery');</script>
+        <script src="js/jquery.nicescroll.min.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/jquery.dropdown.js"></script>
+        <script>$('.carousel').carousel()</script>
+        <script>$('.ss, .uu').dropdown();</script>
+        
+    </body>
+</html>
+
+
+
+          

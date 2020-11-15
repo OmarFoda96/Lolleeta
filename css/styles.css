@@ -1,0 +1,2599 @@
+    body
+    {
+        padding : 0px;
+        margin : 0px;
+        font-family : var(--main-font);
+        overflow-x: hidden;
+        margin-top: 70px;
+
+    }
+    a
+    {
+        text-decoration: none;
+    }
+    :root {
+        --main-bg-color:#520028;
+        --second-bg-color :#19000C;
+        --secondary-color :#f17140;
+        --secondary-hover-color :#f17110;
+        --hover-color : #61174a;
+        --letters-color :#fff;
+        --border-color:#e9e6e0;
+        --main-font : 'Comfortaa', cursive;
+        
+    }
+    /*start nav bar*/
+    #secondNav
+    {
+        background-color: var(--hover-color);
+        width: 100%;
+        height: 50px;
+        text-align: center;
+        padding-top:5px;
+        padding-left: 15%;
+        z-index: 10;
+    }
+    
+    .secondNav a
+    {
+        color: var(--letters-color);
+        text-align: center;
+        font-size: 20px;
+        padding-left: 5%;
+        letter-spacing: 3px;
+    }
+
+    @media (max-width:700px) and (min-width:499px)
+    {
+        #secondNav
+        {
+            padding-left: 8%;
+            margin-top : 15px;
+        }
+       .secondNav a
+        {
+            font-size: 15px;
+            padding-left: 0px;
+        }
+        .secondNav
+        {
+            padding: 0;
+            padding: 0;
+        }
+    }
+    @media (max-width:499px) and (min-width:399px)
+    {
+        #secondNav
+        {
+            padding-left: 3%;
+            margin-top : 15px;
+        }
+       .secondNav a
+        {
+            font-size: 15px;
+            padding-left: 0px;
+        }
+        .secondNav
+        {
+            padding: 0;
+            padding: 0;
+        }
+    }
+    @media (max-width:399px) and (min-width:1px)
+    {
+        #secondNav
+        {
+            padding-left:0px;
+            padding-top:20px;
+        }
+       .secondNav a
+        {
+            font-size: 10px;
+            padding-left: 0px;
+        }
+        .secondNav
+        {
+            padding: 0;
+            padding: 0;
+        }
+    }
+
+    /*end second  nav*/
+    .collapse p a
+    {
+        color: white;
+        font-size: 10px;
+    }
+    .collapse p a:hover
+    {
+        color: var(--secondary-hover-color);
+    }
+    .bg-dark
+    {
+        background-color:var(--hover-color);!important
+    }
+    nav
+    {
+        margin: 0;
+        padding: 0;
+    }
+    #brand
+    {
+        display: none;
+        font-family: 'Poiret One', cursive;
+        margin-bottom:10px;
+
+    }
+    .navbar-toggler-icon
+    {
+
+        color: var(--letters-color);
+    }
+    .navbar-toggler
+    {
+        background-color: var(--main-bg-color);
+    }
+
+    .navbar.scrolled {
+        background-color: var(--hover-color); !important  
+    }
+    .navbar-dark .navbar-brand
+    {
+        font-size: 40px;
+        color: var(--secondary-color);
+        text-shadow: 0 0 10px var(--main-bg-color);
+        margin-right: 10px;
+    }
+    .navbar-dark .navbar-brand:hover
+    {
+        color: var(--secondary-color);
+        text-shadow: 1px 0 1px var(--letters-color);
+    }
+    .navbar-dark .navbar-nav .nav-link
+    {
+        color: var(--letters-color);
+        font-size: 15px;
+        font-weight: 600;
+        letter-spacing: 3px;
+        padding-left: 5px;
+        background-color: transparent;!important
+    }
+    .navbar-dark .navbar-nav .nav-link:hover
+    {
+        color: #f17110;
+    }
+    .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show,.navbar.scrolled .show, .navbar-dark .navbar-nav .show>.nav-link
+    {
+        color: var(--secondary-color);
+
+    }
+    .navbar-dark .navbar-nav .active>.nav-link
+    {
+        color: var(--secondary-color);
+    }
+
+    /* end nav bar */
+    /* start search and filter */
+
+    #banner img
+    {
+        height: 90vh;
+    }
+    .carousel-caption
+    {
+        margin-bottom: 15%;
+        background-color: rgba(0,0,0,0.4);
+        border-radius: 5px;
+        padding: 10px;
+    }
+    .landing-header-content
+    {
+        height: 100%;
+        position: relative;
+        width: 100%;
+        -webkit-box-shadow: 0 0 3px rgba(0,0,0,.12), 0 0 3px rgba(0,0,0,.24);
+        box-shadow: 0 0 3px rgba(0,0,0,.12), 0 0 3px rgba(0,0,0,.24);
+        height: 100vh;
+        position: relative;
+        width: 100%;
+        min-height: 640px;
+    }
+    .landing-header-background {
+        background: url(../img/banner.jpg) center/cover no-repeat #111;
+        height: 100%;
+        overflow: hidden;
+        position: relative;
+        width: 100%;
+
+    }
+    .landing-header-text {
+        left: 50%;
+        margin: -64px 0 0 -480px;
+        top: 50%;
+        width: 960px;
+        color: var(--second-bg-color);
+        position: absolute;
+        text-align: center;
+        z-index: 2;
+    }
+    .landing-header-title {
+        font-size:30px;
+        line-height: 64px;
+        font-weight: 600;
+        margin: 8px 0;
+        text-transform: uppercase;
+        font-family: var(--main-font);
+    }
+    .landing-header-tagline-title {
+        justify-content: center;
+        text-align: center;
+        font-size: 25px;
+        font-weight: 200;
+        line-height: 48px;
+    }
+
+    /* end header text */
+
+    /*start search*/
+    .banner-content select /*for select in search section */
+    {
+        width: 100%;
+        height: 50px;
+        border-color: var(--letters-color);
+        border-radius: 3px;
+        font-size: 16px;
+    }
+    .flirtingForm
+    {
+        height: 62px;
+        bottom: 107px;
+        position: absolute;
+        width: 100%;
+    }
+    .filtering{display: none;}
+    .carousel{display: none;}
+    
+    .banner-content
+    {
+        background-color: rgba(0,0,0,0.7);
+        width: 110%;
+        margin-top: 78px;
+        padding: 30px;
+        position: relative;
+        height: 95px;
+        z-index: 3;
+
+    }
+    .searchBtn
+    {
+        width: 100%;
+        height: 52px;
+        background-color: var(--main-bg-color);
+        color: var(--letters-color);
+        font-size: 24px;
+        font-weight: 500;
+
+    }
+    .searchBtn:hover
+    {
+        color: var(--secondary-color);
+    }
+    .searchSelect
+    {
+        margin: 2px;
+    }
+    
+    @media (max-width:1000px) and (min-width:991px) 
+    {
+       .landing-header-text
+        {
+           width: 50%;
+            left: 90%;
+        }
+        .landing-header-tagline-title
+        {
+            font-size: 20px;
+        }
+        .banner-content
+        {
+            bottom: -5.5vh;
+        }
+        .banner-content select , .banner-content button
+        {
+            width: 120%;
+            margin: 5px;
+        }
+    }
+    @media (max-width:990px) and (min-width:768px)
+    {
+       .landing-header-text
+        {
+           width: 50%;
+            left: 90%;
+        }
+        .landing-header-tagline-title
+        {
+            font-size: 20px;
+        }
+        .banner-content
+        {
+            bottom: 0.5vh;
+        }
+        .banner-content select , .banner-content button
+        {
+            width: 125%;
+            margin: 5px;
+        }
+    }
+    @media (max-width:767.05px) and (min-width:701px)
+    {
+       .landing-header-text
+        {
+            display: none;
+        }
+        .flirtingForm
+        {
+            top: 25%;
+        }
+        .banner-content
+        {
+            height: 65vh;
+        }
+        .banner-content select , .banner-content button
+        {
+            width: 90%;
+            margin: 5px;
+        }
+    }
+    @media (max-width:700px) and (min-width:67.01px)
+    {
+       .landing-header-text
+        {
+            display: none;
+        }
+        .flirtingForm
+        {
+            top: 25%;
+        }
+        .banner-content
+        {
+            height: 65vh;
+        }
+        .banner-content select , .banner-content button
+        {
+            width: 90%;
+            margin: 5px;
+        }
+    }
+    @media (max-width:670px) and (min-width:601px)
+    {
+       .landing-header-text
+        {
+            display: none;
+        }
+        .flirtingForm
+        {
+            top: 25%;
+        }
+        .banner-content
+        {
+            height: 80vh;
+            bottom: 100%;
+        }
+        .banner-content select , .banner-content button
+        {
+            width: 90%;
+            margin: 5px;
+            height: 40px;
+            font-size: 15px;
+        }
+    }
+    @media (max-width:600px) and (min-width:401px)
+    {
+       .landing-header-text
+        {
+            display: none;
+        }
+        .flirtingForm
+        {
+            top: 25%;
+        }
+        .banner-content
+        {
+            height: 65vh;
+        }
+        .banner-content select , .banner-content button
+        {
+            width: 90%;
+            margin: 5px;
+        }
+    }
+    @media (max-width:400px) and (min-width:1px)
+    {
+       .landing-header-text
+        {
+            display: none;
+        }
+        .flirtingForm
+        {
+            top: 25%;
+        }
+        .banner-content
+        {
+            height: 65vh;
+        }
+        .banner-content select , .banner-content button
+        {
+            width: 90%;
+            margin: 5px;
+        }
+    }
+
+
+    /* end search and filter */
+
+    /*start how it works section*/
+
+    #howItWork ,#featuredStylists,#reviews
+    {
+        background-color: var(--main-bg-color);
+        color: var(--letters-color);  
+        padding-top: 40px;
+        text-align: center;
+        z-index: 2;
+    }
+    .heading
+    {
+        text-shadow: 0 0 15px var(--letters-color);
+        color: var(--letters-color);
+        margin-bottom: 20px;
+    }
+    .howSquares , .mostViewedSquare , .featured
+    {
+        margin-bottom: 50px;
+        text-align: center;
+        padding: 10px;
+    }
+    .howSquares p
+    {
+        text-align: center;
+    }
+    /*end how it works section*/
+
+    /*start most viewed section*/
+    #mostViewed
+    {
+        text-align: center;
+        background-color: var(--second-bg-color);
+        color: var(--letters-color);
+        padding-top: 40px;
+    }
+    .mostViewedSquare
+    {
+        margin-bottom: 100px;
+    }
+    .mostViewedSquare:hover
+    {
+        cursor: pointer;
+        color: var(--secondary-color);
+        text-shadow: 0 0 30px var(--letters-color);
+    }
+    .mostViewedSquare img , .featured img
+    {
+        width: 100%;
+        height: 100%;
+    }
+    /*end most viewed section*/
+
+    /*start featured Stylists*/
+    .featured
+    {
+        padding: 0px;
+        margin-bottom: 25px;
+        margin-top: 10px
+    }
+    .pad
+    {
+        margin-bottom: 30px;
+    }
+    .stylist-bg
+    {
+        min-width: 100%;
+        min-height: 390px;
+        transition: 0.3s ease-in-out;
+    }
+    .stylist-bg:hover 
+    {
+
+        text-shadow: 0 0 20px var(--letters-color);
+        transform: scale(1.01);
+        cursor: pointer;
+    }
+    .artistInfo
+    {
+        background-color: var(--main-bg-color);
+        width: 100%;
+        position: absolute;
+        top: 90%;
+        color: var(--letters-color);
+        text-align: left;
+        padding: 5px;
+        padding-left: 10px;
+        transition: 0.2s ease-in-out;
+    }
+    @media (max-width:1200px) and (min-width:996px) 
+    {
+        .artistImg img
+        {
+            top: 77%;
+            left: 2%;
+
+        }
+    }
+    @media (max-width:995px) and (min-width:770px) 
+    {
+        .artistImg img
+        {
+            top: 77%;
+            left: 6%;
+            width: 60px;
+            height: 60px;
+        }
+
+    }
+    @media (max-width:770px) and (min-width:756px)
+    {
+       .artistImg img
+        {
+            top: 75%;
+            left: 6%;
+        }
+
+    }
+    @media (max-width:755px) and (min-width:750px)
+    {
+       .artistImg img
+        {
+            top: 75%;
+            left: 6%;
+        }
+
+
+    }
+    @media (max-width:750px) and (min-width:740px)
+    {
+       .artistImg img
+        {
+            top: 75%;
+            left: 6%;
+        }
+    }
+    @media (max-width:740px) and (min-width:733px) 
+    {
+        .artistImg img
+        {
+            top: 75%;
+            left: 6%;
+        }
+    }
+    @media (max-width:730px) and (min-width:700px) 
+    {
+        .artistImg img
+        {
+            top: 75%;
+            left: 6%;
+        }
+    }
+    @media (max-width:700px) and (min-width:501px) 
+    {
+        .artistImg img
+        {
+            top: 75%;
+            left: 6%;
+        }
+
+    }
+    @media (max-width:500px) and (min-width:460px)
+    {
+       .artistImg img
+        {
+            top: 75%;
+            left: 6%;
+        }
+        .artistInfo
+        {
+           right: 5px;
+        }
+    }
+    @media (max-width:460px) and (min-width:399px)
+    {
+       .artistImg img
+        {
+            top: 75%;
+            left: 4%;
+        }
+        .artistInfo
+        {
+           right: 5px;
+        }
+    }
+    @media (max-width:399px) and (min-width:299px)
+    {
+       .artistImg img
+        {
+            top: 75%;
+            left: 2%;
+            width: 90px;
+            height: 90px;
+        }
+        .artistInfo
+        {
+           right: 3px;
+        }
+    }
+    @media (max-width:299px) and (min-width:1px)
+    {
+       .artistImg img
+        {
+            top: 75%;
+            left: 2%;
+            width: 80px;
+            height: 80px;
+        }
+        .artistInfo
+        {
+           right: 3px;
+        }
+    }
+
+    /*end featured Stylists*/
+
+    /*start footer*/
+    #footer
+    {
+        bottom: 0px;
+        background-color: var(--main-bg-color);
+        text-align: left;
+        padding-left: 150px;
+        color: var(--secondary-color);
+        line-height: 35px;
+        padding-top: 30px;
+        border-top: 1px solid black;
+    }
+    ul
+    {
+        list-style-type: none;
+    }
+    .footer p
+    {
+        text-align: center;
+    }
+    .footer a
+    {
+        color: var(--letters-color);
+        text-decoration: none;
+        font-size: 15px;
+    }
+    .footer a:hover
+    {
+        color: var(--secondary-color);
+        text-shadow: 0 0 5px var(--secondary-color);
+    }
+    .footer-social
+    {
+        width: 100%;
+        letter-spacing: 2px;
+
+    }
+    @media (max-width:400px) and (min-width:1px)
+    {
+        #footer
+        {
+            font-size: 10px;
+        }
+.footer-social
+    {
+        width: 100%;
+        letter-spacing: 0px;
+
+    }
+    }
+    /*end footer*/
+
+    /*=========================================================     End of home Page      ==================================================================*/
+
+
+    /*=========================================================     start of profile Page      ==================================================================*/
+
+    /*start info section*/
+    .coverPhoto
+    {
+        min-width: 100%;
+    }
+#changeCoverPhoto
+    {
+        display: none;
+    }
+.changeCov
+{
+    background-color: rgba(0,0,0,0.3);
+    color: var(--letters-color);
+    padding: 5px;
+    margin-top:26px;
+}
+    #info
+    {
+        background-color:rgba(0,0,0,0.7);
+        margin-top: 45vh;
+    }
+    .stylistCaption
+    {
+        display: none;
+        width: 100%;
+        min-height: 24vh;
+    }
+    .stylistImage img
+    {
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        border: 5px solid var(--main-bg-color);
+        position: absolute;
+        top: -80px;
+        box-shadow: 0 0 50px var(--main-bg-color);
+        z-index: 2;
+    }
+    .stylistInfo h1
+    {
+        color: var(--letters-color);
+        text-shadow: 0 0 15px var(--letters-color);
+        margin-bottom: 0;
+    }
+    .stylistInfo h6{
+        overflow-y: hidden;
+        height:45px;
+        margin-left: 25px; 
+        font-size:14px;
+
+    }
+.showMoreInfo
+{
+cursor:pointer;
+margin-left: 65px;
+    font-size: 14px;
+}
+
+.countryInfo
+{font-size:14px;}
+
+    .rate a
+    {
+        text-decoration: none;
+        color: var(--letters-color); 
+        font-size: 20px;
+    }
+    .rate a:hover
+    {
+        color: var(--secondary-color)
+    }
+    .stylistInfo
+    {
+        color: var(--letters-color);
+    }
+    .followBtn
+    {
+        background-color: var(--main-bg-color);
+        color: var(--letters-color);
+        font-size: 20px;
+        width: 45%;
+        margin-top: 15%;
+        margin-bottom: 5px;
+    }
+    .followBtn:hover
+    {
+        box-shadow: 0 0 5px var(--letters-color)
+    }
+    .share
+    {
+        width: 30%;
+        height: 45px;
+        margin-top: 12%;
+        background-color: var(--main-bg-color);
+        color: var(--letters-color);
+    }
+    .dropdown-item
+    {
+        color: var(--letters-color);
+        font-size: 20px;
+        padding: 10px;
+    }
+    .dropdown-item:hover
+    {
+        color: var(--letters-color);
+        background-color: var(--second-bg-color)
+    }
+    .dropdown-menu.show
+    {
+        background-color: var(--main-bg-color)
+    }
+    .rate
+    {
+        margin-top: 20px;
+    }
+    .more
+    {
+        text-align: center;
+        color: var(--letters-color);
+        width: 50%;
+        margin-top: 30px;
+        margin-left: 28%;
+        font-size: 20px;
+        box-shadow: 0 0 5px var(--letters-color);
+    }
+    .more a:hover
+    {
+        color: var(--secondary-color);
+        
+    }
+    .name
+    {
+        margin-left: 2vw;
+    }
+    .followers
+    {
+        font-size:14px;
+    }
+    @media (max-width:1200px) and (min-width:1121px)
+    {
+         .stylistImage img
+        {
+            width: 150px;
+            height: 150px;
+            top: 2vh;
+            border: 2px;
+           
+
+        }
+        .stylistCaption
+        {
+            height: 30vh;
+
+        }
+        .stylistInfo h1
+        {
+            font-size: 35px;
+
+        }
+        .stylistInfo h6 , .stylistInfo h5
+        {
+            font-size: 20px;
+        }
+        .stylistInfo
+        {
+            margin-left: -7vw;
+        }
+        .rate
+        {
+            margin-left: 40vw;
+            margin-top: -15vh;
+        }
+        .buttn
+        {
+            margin-top: -20vh;
+            margin-left: 55vw;
+        }
+        .followBtn
+        {
+            width: 70%;
+        }
+        .share
+        {
+            margin-top: -11vh;
+            margin-left: 13vw;
+            width: 40%;
+
+        }
+        .followers
+        {
+            margin-left: 0vw;
+            width: 100%;
+        }
+
+
+
+    }
+    @media (max-width:1120px) and (min-width:1001px)
+    {
+         .stylistImage img
+        {
+            width: 150px;
+            height: 150px;
+            border: 2px;
+            margin-top: 15vh;
+
+        }
+        .stylistCaption
+        {
+            height: 30vh;
+
+        }
+        .stylistInfo h1
+        {
+            font-size: 35px;
+
+        }
+        .stylistInfo h6 , .stylistInfo h5
+        {
+            font-size: 20px;
+        }
+        .stylistInfo
+        {
+            margin-left: -7vw;
+        }
+        .rate
+        {
+            margin-left: 50vw;
+            margin-top: -15vh;
+        }
+        .buttn
+        {
+            margin-top: -20vh;
+        }
+        .followBtn
+        {
+            width: 70%;
+        }
+        .share
+        {
+            margin-top: -11vh;
+            margin-left: 15vw;
+            width: 40%;
+
+        }
+        .followers
+        {
+            margin-left: 0vw;
+            width: 100%;
+        }
+
+
+
+    }
+    @media (max-width:1000px) and (min-width:768px)
+    {
+        .secondNav a
+        {
+            font-size: 20px;
+            padding-left: 0;
+        }
+         .stylistImage img
+        {
+            width: 150px;
+            height: 150px;
+            border: 2px;
+            margin-top: 15vh;
+
+        }
+        .stylistCaption
+        {
+            height: 30vh;
+            margin-top: 55vh;
+
+        }
+        .stylistInfo h1
+        {
+            font-size: 25px;
+
+        }
+        .stylistInfo h6 , .stylistInfo h5
+        {
+            font-size: 12px;
+        }
+        .stylistInfo
+        {
+            margin-left: -2vw;
+        }
+        .rate
+        {
+            margin-left: 38vw;
+            margin-top: -25vh;
+        }
+        .buttn
+        {
+            margin-top: -25vh;
+            margin-left: 38vw;
+        }
+        .followBtn
+        {
+            width: 70%;
+        }
+        .share
+        {
+           margin-left: 30vw;
+            margin-top: -11vh;
+            width: 40%;
+
+        }
+        .followers
+        {
+            margin-left: 15vw;
+            margin-top: -5vh;
+            width: 100%;
+        }
+
+
+
+    }@media (max-width:900px) and (min-width:768px)
+    {
+         .stylistImage img
+        {
+            width: 150px;
+            height: 150px;
+            border: 2px;
+            margin-top: 15vh;
+
+        }
+        .stylistCaption
+        {
+            height: 30vh;
+            margin-top: 55vh;
+
+        }
+        .stylistInfo h1
+        {
+            font-size: 25px;
+
+        }
+        .stylistInfo h6 , .stylistInfo h5
+        {
+            font-size: 15px;
+        }
+        .stylistInfo
+        {
+            margin-left: -2vw;
+        }
+        .rate
+        {
+            margin-left: 45vw;
+            margin-top: -15vh;
+        }
+        .buttn
+        {
+            margin-top: -20vh;
+            margin-left: 45vw;
+        }
+        .followBtn
+        {
+            width: 70%;
+        }
+        .share
+        {
+           margin-left: 35vw;
+            margin-top: -10vh;
+            width: 40%;
+
+        }
+        .followers
+        {
+            margin-left: 20vw;
+            margin-top: -0vh;
+            width: 100%;
+        }
+
+
+
+    }
+    @media (max-width:767px) and (min-width:761px)
+    {
+         .stylistImage img
+        {
+            width: 150px;
+            height: 150px;
+            border: 2px;
+            margin-top: 15vh;
+            margin-left: -15vw;
+        }
+        .stylistCaption
+        {
+            height: 30vh;
+        }
+        .stylistInfo
+        {
+            margin-left: 7vw;
+        }
+        .rate
+        {
+            margin-left: 45vw;
+            margin-top: -15vh;
+        }
+        .buttn
+        {
+            margin-top: -20vh;
+            margin-left: 38vw;
+        }
+        .followBtn
+        {
+            width: 35%;
+        }
+        .share
+        {
+           margin-left: 36vw;
+            margin-top: -11vh;
+
+        }
+        .followers
+        {
+            margin-left: 20vw;
+        }
+
+
+
+    }
+    @media (max-width:760px) and (min-width:651px)
+    {
+        .stylistImage img
+        {
+            width: 140px;
+            height: 140px;
+            border: 1px;
+            margin-left: 25vw;
+        }
+        #info
+        {
+            margin-top: 20vh;
+        }
+        .stylistCaption
+        {
+            height: 75vh;
+        }
+        .stylistInfo
+        {
+            margin-left: 20vw;
+        }
+        .stylistInfo h1
+        {
+            margin-top: 15vh;
+        }
+        .share
+        {
+            margin-top: 10vh;
+        }
+        
+    }
+    @media (max-width:600px) and (min-width:451px)
+    {
+        .stylistImage img
+        {
+            width: 100px;
+            height: 100px;
+            border: 1px;
+            margin-left: 25vw;
+        }
+        #info
+        {
+            height: 65vh
+        }
+        .stylistCaption
+        {
+            height: 65vh
+        }
+        .stylistInfo h1
+        {
+            margin-top: 20px;
+        }
+        .share
+        {
+            margin-top: 10vh;
+        }
+    }@media (max-width:650px) and (min-width:601px)
+    {
+        .stylistImage img
+        {
+            width: 100px;
+            height: 100px;
+            border: 1px;
+            margin-left: 30vw;
+        }
+        #info
+        {
+            height: 130vh
+        }
+        .stylistCaption
+        {
+            height: 65vh
+        }
+        .stylistInfo h1
+        {
+            margin-top: 20px;
+        }
+        .share
+        {
+            margin-top: -1vh;
+        }
+        .followBtn
+        {
+            margin-top:0px;
+        } 
+    }
+    @media (max-width:450px) and (min-width:1px)
+    {
+        .stylistImage img
+        {
+            width: 100px;
+            height: 100px;
+            border: 1px;
+            margin-left: 30vw;
+        }
+        #info
+        {
+            margin-top: 17vh;
+        }
+        .stylistCaption
+        {
+            height: 80vh
+            margin-top:-50px;
+        }
+        .share
+        {
+            margin-top: -1vh;
+        }
+        .followBtn
+        {
+            margin-top:0px;
+        } 
+    }
+
+    /*end info section*/
+
+    /*start about section*/
+    .contacts
+    {
+    margin-left: 15px;
+    text-align: center;
+    }
+
+    .information
+    {
+        display: none;
+    }
+    .infoSquareStylist
+    {
+        padding: 15px;
+        margin-top: 4vh;
+        text-align: left;
+        background-color: var(--main-bg-color);
+        color: var(--letters-color);
+    }
+    .infoSquareStylist h5
+    {
+        margin-top: 15px;
+        font-size: 14px;
+        line-height:25px;
+    }
+.infoSquareStylist h5 a
+{
+    font-size: 20px;
+    color: var(--letters-color);
+    text-align: center;
+    border: 1px solid var(--letters-color);
+    padding: 10px;
+    box-shadow: 0 0 5px var(--border-color);
+   
+}
+.infoSquareStylist h5 a:hover{
+    color: var(--secondary-color);
+}
+    .infoSquareStylist li
+    {
+        text-align: left;
+    }
+    .infoSquareStylist h3
+    {
+        text-shadow: 0 0 5px var(--letters-color);
+        font-size: 25px;
+
+    }
+    .infoSquare ,.hiddens
+    {
+        margin-bottom: 30px;
+        margin-top: 10px;
+        text-align: left;
+        background-color: var(--second-bg-color);
+        color: var(--letters-color);
+    }
+    .infoSquare a, .hiddens a
+    {
+        color: var(--letters-color);
+        text-decoration: none;
+
+    }
+    .infoSquare a:hover ,.hiddens a:hover
+    {
+        text-shadow: 0 0 5px var(--letters-color);
+    }
+    .infoSquare h3 ,.hiddens h3
+    {
+        text-shadow: 0 0 5px var(--letters-color);
+        font-size: 20px;
+    }
+     .infoSquarePrice h3
+    {
+        margin-top: 10px;
+        text-align: left;
+        text-shadow: 0 0 5px var(--letters-color);
+    }
+    .infoSquarePrice
+    {
+        color: var(--letters-color);
+    }
+    .infoSquarePrice table
+    {
+        width: 110%;
+    }
+    .infoSquarePrice th
+    {   
+        color: var(--letters-color);
+        text-shadow: 0 0 5px var(--letters-color);
+        font-size: 17px;
+    }
+    .hiddens
+    {
+        display: none;
+    }
+    .infoSquarePrice tbody
+    {
+        color: var(--letters-color);
+    }
+    @media (max-width:1000px) and (min-width:750px) 
+    {
+        .infoSquarePrice,.infoAbout
+        {
+            left: 10%;
+        }
+        .followBtn
+        {
+            margin-left: 150px;
+        }
+    }
+    @media (max-width:1000px) and (min-width:1px)
+    {
+        
+        .hiddens
+        {
+            display: block;
+        }
+    }
+
+    /*end about section*/
+
+    /* start portfolio */
+    #portfolio
+    {
+        background-color: var(--main-bg-color);
+        padding-right: 0px;
+        margin: 0px;
+    }
+    #portfolio .col-md-3
+    {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    #profile
+    {
+        background-color: var(--second-bg-color); 
+        text-align: left;
+        padding: 25px;
+    }
+
+    /* end portfolio */
+
+    /*start reviews*/
+    .mainReviews
+    {
+        background-color: var(--second-bg-color);
+        padding: 20px;
+        text-align: left;
+        padding-bottom: 30px;
+        border-bottom: 10px solid var(--main-bg-color);
+    }
+    .mainReviews img
+    {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+    }
+    .stars
+    {
+        text-align: left;
+    }
+
+    .date
+    {
+        text-align: right;
+    }
+    .mainReviews .form-control
+    {
+        background-clip: var(--second-bg-color)
+    }
+    .commentReview
+    {
+        width: 100%;
+        padding: 25px;
+        text-align: center;
+        padding-left: 40px;;
+    }
+    .commentReview textarea
+    {
+        width: 55vw;
+        border-radius: 5px;margin-right: 10px;
+        min-height: 40px;
+        overflow-x: hidden;
+    }
+    .commentBtn
+    {
+        margin-bottom: 45px;
+        height:50px;
+    }
+    @media (max-width:1200px) and (min-width:700px) 
+    {
+        .mainReviews p , .mainReviews .stars, .mainReviews .date
+        {
+            margin-left: 10%;
+        }
+    }
+@media (max-width:4000px) and (min-width:2000px) 
+    {
+        .commentReview textarea
+        {
+            width: 30vw
+        }
+    }
+@media (max-width:7000px) and (min-width:4000px) 
+    {
+        .commentReview textarea
+        {
+            width: 20vw
+        }
+    }
+@media (min-width:6000px) 
+    {
+        .commentReview textarea
+        {
+            width: 15vw
+        }
+    }
+    /*start reviews*/
+
+    /*=========================================================     end of profile Page      ==================================================================*/
+
+    /*start Album Plugin */
+    .tz-gallery a
+    {
+        color: var(--letters-color);
+        text-decoration: none;
+    }
+    .tz-gallery {
+        padding: 60px 0;
+        text-align: center;
+    }
+
+    .tz-gallery .lightbox img {
+        width: 100%;
+        height: 100%;
+        margin: 5px;
+        padding: 5px 0;
+        transition: 0.2s ease-in-out;
+        box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+    }
+
+    .tz-gallery .lightbox img:hover {
+        transform: scale(1.05);
+        box-shadow: 0px 0px 5px var(--letters-color);
+        text-shadow: 0 0 15px (--letters-color);
+    }
+
+    .tz-gallery img {
+        padding-right: 50px;
+    }
+
+    .baguetteBox-button {
+        background-color: transparent !important;
+    }
+
+
+    @media(max-width: 768px) {
+        body {
+            padding: 0;
+        }
+    }
+    /*start Album Plugin */
+    /*=========================================================     start of register Page      ==================================================================*/
+    .head
+    {
+        text-align: center;
+        margin-top: 100px;
+        color: var(--second-bg-color)
+    }
+
+    .regForm
+    {
+        border: 1px var(--border-color);
+        border-style: solid;
+        border-radius: 5px;
+        width: 50%;
+        padding: 35px;
+        font-size: 20px;
+        margin:0 auto;
+        margin-bottom: 50px;
+    }
+    .regForm h4
+    {
+        border-bottom: 1px solid var(--border-color);
+        padding-bottom: 30px;
+    }
+    .regForm .wid, .regForm textarea
+    {
+        width: 100%;
+        height: 50px;
+        padding: 5px;
+    }
+    .artistSelect
+    {
+        width: 50%; 
+        float: right;
+    }
+    .regForm .sign
+    {
+        font-size: 25px;
+        border-radius: 2px;
+        background-color: var(--main-bg-color);
+        color: var(--letters-color);
+        border-color: transparent;
+    }
+    .log
+    {
+        text-decoration: none;
+        color: var(--secondary-color);
+        font-size: 25px;
+    }
+    .log:hover
+    {
+        text-decoration: none;
+        color: var(--main-bg-color);
+        text-shadow: 0 0 5px black;
+    }
+    .btn-social{
+        position: relative;
+        padding-left: 44px;
+        text-align: left;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .btn-social:hover
+    {
+        overflow: visible;
+        text-overflow: inherit;
+    }
+    .btn-facebook
+    {
+        color: #fff;
+        background-color: #3b5998;
+        border-color: rgba(0,0,0,0.2);
+        font-size: 25px;
+    }
+    .btn-facebook:hover
+    {
+        color: var(--secondary-color);
+    }
+    @media (max-width:1000px) and (min-width:700px) 
+    {
+    }
+    @media (max-width:700px) and (min-width:1px)
+    {
+        .log,.btn-facebook
+        {
+            font-size: 18px;
+        }
+        .btn-facebook
+        {
+            font-size: 15px;
+            padding: 3px;
+        }
+        .regForm button
+        {
+            margin: 0px;
+        }
+        .regForm
+        {
+            width: 100%;
+        }
+    }
+    /*=========================================================     end of register Page      ==================================================================*/
+
+    /*=========================================================     Start of stylist Page      ==================================================================*/
+
+
+    /*Start search panel*/
+    .mainRow
+        {
+            display: none
+        }
+    .country-select-input .flag {background-image: url("../img/flags.png");}
+    .main-container
+    {
+        background-color: var(--letters-color);
+        color: var(--main-bg-color);
+        border: 1px solid var(--border-color);
+        padding: 10px 10px;
+        margin-right: 0px;
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .post textarea
+    {
+        width: 100%;
+        margin-left: 15px;
+        overflow-x: hidden;
+    }
+    .postBtn
+    {
+        width: 100%;
+        color: var(--letters-color);
+        padding: 20px;
+        text-align: center;
+        border: 3px dashed var(--border-color);
+        margin-bottom: 35px;
+        font-size: 20px;
+    }
+    .post button
+    {
+        width: 40%;
+        height: 50px;
+        background-color: var(--secondary-color);
+        border-radius: 2px;
+        color: var(--letters-color);
+    }
+    @media (max-width:400px) and (min-width:1px)
+    {
+         .post button
+         {
+             width: 75%;
+         }
+         .postat
+         {
+             line-height:30px;
+         }
+    }
+    .post button:hover
+    {
+        background-color: var(--secondary-hover-color);
+        color: var(--second-bg-color);
+    }
+    .main-container select,.main-container .btn
+    {
+        width: 100%;
+    }
+    .main-container select
+    {
+        padding: 10px;
+        border-radius: 2px;
+        margin-bottom: 5px;
+        font-size: 15px;
+    }
+    .main-container button
+    {
+        background-color: var(--secondary-color);
+        color: var(--letters-color);
+        font-size: 19px;
+        margin-bottom: 30px;
+        border-color: var(--secondary-color);
+    }
+    .main-container button:hover,.showBtn button:hover
+    {
+        background-color:  var(--secondary-hover-color);
+        color:  var(--second-bg-color);
+        border-color: var(--secondary-color);
+    }
+    .form-title
+    {
+        padding: 10px;
+        border-bottom: 1px solid var(--border-color);
+        margin-bottom: 10px;
+        padding-bottom: 20px;
+    }
+    .form-title h2
+    {
+        font-size: 18px;
+    }
+    .form-group
+    {
+        margin-bottom: 10px;
+        border-bottom: 1px solid #e9e6e0;
+        padding-bottom: 30px;
+    }
+    /*end search panel*/
+
+    /*start stylist panel*/
+    .stylistPanel
+    {
+        margin-bottom: 20px;
+        text-align: center;
+        padding: 0px;
+        border: 1px solid var(--border-color);
+        transition: 0.3s ease-in-out;
+    }
+    .stylistPanel:hover
+    {
+        transform: scale(1.02);
+    }
+    .stylistPanel a
+    {
+        text-decoration: none;
+        color: var(--main-bg-color);
+    }
+    .coverPanel
+    {
+        width: 100%;
+        height: 160px;
+    }
+    .profilePanel
+    {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        z-index: 2;
+        position: absolute;
+        left: 32%;
+        top: 20%;
+        border: 3px solid var(--letters-color);
+        border-radius: 50%;
+    }
+    .dataPanel
+    {
+        margin-top: 17%;
+        font-size:14px;
+    }
+    .showBtn
+    {
+        padding: 5px;
+        border-top: 1px solid var(--border-color);
+
+    }
+    .showBtn button
+    {
+        color: var(--letters-color);
+        background-color: var(--secondary-color);
+        border-color: transparent;
+        font-size:13px;
+    }
+    .showBtn button:hover
+    {
+        background-color: (--secondary-color);
+    }
+    .mainRow
+    {
+        margin-top: 100px;
+        padding-bottom: 50px;
+    }
+
+    @media (max-width:1200px) and (min-width:996px) 
+    {
+        .profilePanel
+        {
+            top: 17%;
+        }
+    }
+    @media (max-width:995px) and (min-width:770px) 
+    {
+        .profilePanel
+        {
+            width: 70px;
+            height: 70px;
+            top: 14%;
+        }
+    }
+    @media (max-width:770px) and (min-width:756px)
+    {
+       .profilePanel
+        {
+            top: 10%;
+            left: 22%;
+        }
+
+    }
+    @media (max-width:755px) and (min-width:750px)
+    {
+       .profilePanel
+        {
+            top: 18%;
+            left: 40%;
+        }
+
+    }
+    @media (max-width:750px) and (min-width:740px)
+    {
+       .profilePanel
+        {
+            top: 38%;
+            left: 40%;
+        }
+        .stylistPanel
+        {
+            font-size: 30px;
+        }
+    }
+    @media (max-width:740px) and (min-width:733px) 
+    {
+        .profilePanel
+        {
+            top: 43%;
+            left: 40%;
+        }
+        .stylistPanel
+        {
+            font-size: 30px;
+        }
+
+    }
+    @media (max-width:730px) and (min-width:700px) 
+    {
+        .profilePanel
+        {
+            top: 45%;
+            left: 40%;
+        }
+    }
+    @media (max-width:700px) and (min-width:501px) 
+    {
+        .profilePanel
+        {
+            top: 37%;
+            left: 40%;
+        }
+        .stylistPanel
+        {
+            width: 100%;
+            margin-left: 1%;
+            font-size: 30px;
+        }
+        .main-container
+        {
+            margin-bottom: 20px;
+        }
+    }
+    @media (max-width:500px) and (min-width:460px)
+    {
+       .profilePanel
+        {
+            top: 35%;
+            left: 40%;
+        }
+    }
+    @media (max-width:460px) and (min-width:399px)
+    {
+       .profilePanel
+        {
+            top: 35%;
+            left: 40%;
+        }
+    }
+    @media (max-width:399px) and (min-width:299px)
+    {
+       .profilePanel
+        {
+            top: 28%;
+            left: 35%;
+        }
+    }
+    @media (max-width:299px) and (min-width:1px)
+    {
+       .profilePanel
+        {
+            top: 20%;
+            left: 30%;
+        }
+        .main-container
+        {
+            margin-bottom: 30px;
+        }
+    }
+    /*End stylist panel*/
+
+    /*=========================================================     end of stylists Page      ==================================================================*/
+
+
+    /*=========================================================     start of Dashboard Page      ==================================================================*/
+
+    /*start dashboard */
+    #profilePicture
+    {
+        margin-left: 30%;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        border: 0px;
+        background-color: var(--border-color);
+        box-shadow: 0 0 5px var(--main-bg-color);
+        display: none;
+    }
+    #profilePictureUploader
+    {
+        display: none;
+        width: 0px;
+        height: 0px;
+    }
+    .hovcam
+    {
+        display: none;
+        color: black;
+        padding: 10px;
+        margin-top: 140px;
+        margin-left: 60px;
+        position: absolute;font-size: 35px;
+        text-align: center;
+    }
+    .custom-file-change
+    {
+        border: 1px solid #ccc;
+        width: 230px;
+        padding: 6px 12px;
+        cursor: pointer;
+        display: none;
+        margin-top: -50px;
+        margin-left: 30%;
+    }
+    .custom-file-upload 
+    {    
+        border: 1px solid #ccc;
+        display: inline-block;
+        padding: 6px 12px;
+        cursor: pointer;
+        margin-left: 30%;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        border: 0px;
+        background-image: url(../img/user-upload-512.png);
+        box-shadow: 0 0 5px var(--main-bg-color);
+    }
+    .formImg .upload
+    {
+       background: var(--letters-color);
+        width: 100px;
+        height: 50px;
+    }
+    .priceListTable input[type="number"]
+    {
+        height: 30px;
+        width: 100%
+    }
+    .publish
+    {
+        background-color: var(--secondary-color);
+        color: var(--letters-color);
+        float: right;
+        border-radius: 2px;
+        font-size: 20px;
+        height: 50px;
+    }
+    .publish:hover
+    {
+        background-color: var(--secondary-hover-color);
+        color: var(--second-bg-color);
+    }
+.sign:hover
+{
+    background-color: var(--second-bg-color);
+    color: var(--secondary-color);
+}
+    .mob
+    {
+        width: 212%;
+        height: 50px;
+        
+        
+    }
+    .favprod
+    {
+        width: 70%;
+        height: 50px;
+    }
+    .add_more_button
+    {
+        width: 28%;
+        height: 50px;
+        background-color: var(--main-bg-color);
+        border-color: transparent;
+    }    
+    .add_more_button:hover
+    {
+        color: var(--secondary-color);
+        background-color: var(--main-bg-color);
+        border-color: transparent;
+    }
+    .form-group input[type="date"]
+    {
+        height: 50px;
+        width: 75%;
+        padding-left: 5px;
+        border: 1px solid var(--border-color);
+    }
+    .iti-flag {background-image: url("path/to/flags.png");}
+
+    @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+      .iti-flag {background-image: url("path/to/flags@2x.png");}
+    }
+    @media (max-width:1200px) and (min-width:901px)
+    {
+        #profilePicture,.custom-file-upload 
+        {
+            margin-left: 30%;
+
+        }
+        .form-group input[type="date"]
+        {
+            width: 58%;
+        }
+        .mob
+        {
+            width: 378%;
+
+        }
+        .regForm
+        {
+            width: 100%;
+        }
+    }
+    @media (max-width:900px) and (min-width:771px)
+    {
+        #profilePicture,.custom-file-upload 
+        {
+            margin-left: 30%;
+
+        }
+        .form-group input[type="date"]
+        {
+            width: 58%;
+        }
+        .mob
+        {
+            width: 278%;
+
+        }
+        .regForm
+        {
+            width: 100%;
+        }
+    }
+    @media (max-width:770px) and (min-width:601px)
+    {
+        #profilePicture,.custom-file-upload 
+        {
+            margin-left: 30%;
+
+        }
+        .form-group input[type="date"]
+        {
+            width: 58%;
+        }
+        .mob
+        {
+            width: 200%;
+
+        }
+        .regForm
+        {
+            width: 100%;
+        }
+    }
+    @media (max-width:500px) and (min-width:301px)
+    {
+        #profilePicture,.custom-file-upload 
+        {
+            margin-left: 00%;
+
+        }
+        .form-group input[type="date"]
+        {
+            width: 58%;
+        }
+        .priceListTable input[type="number"]
+        {
+            width: 58%;
+        }
+        .mob
+        {
+            width: 150%;
+
+        }
+    }
+    @media (max-width:300px) and (min-width:1px)
+    {
+        #profilePicture,.custom-file-upload 
+        {
+            margin-left: 00%;
+
+        }
+        .form-group input[type="date"]
+        {
+            width: 58%;
+        }
+        .priceListTable input[type="number"]
+        {
+            width: 58%;
+        }
+        .mob
+            {
+                width: 100%;
+            }
+    }
+    /*end dashboard */
+
+    /*Start Upload Portfolio*/
+    .removeImage img
+    {
+        width: 120px;
+        height: 120px;
+        border-radius: 15px;
+        cursor: pointer;
+    }
+    .removeImage
+    {
+        padding: 10px;
+    }
+    .removeImage i
+    {
+        z-index: 3;
+        position: absolute;
+        color: var(--letters-color);
+        margin-left: 95px;
+    }
+    /*end Upload Portfolio*/
+
+    /*=========================================================     end of Dashboard Page      ==================================================================*/
+
+
+    /*=========================================================     start control panel  Page      ==================================================================*/
+    .mainContaint
+    {
+        margin-top: 72px;
+    }
+    .mainContaint a
+    {
+        color: var(--second-bg-color);
+            
+    }
+    /*=========================================================     end control panel  Page      ==================================================================*/
+
+    /*=========================================================     Start Pricing  Page      ==================================================================*/
+    .cov
+    {
+        background-image: url(../img/banner.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 70vh;
+    }
+    .prices
+    {
+        background-color: var(--letters-color);
+        box-shadow: 0 0 15px black;
+        text-align: center;
+        margin-top: 30vh;
+        margin-left: 30vw;
+        border-top: 7px solid #f42494;
+        border-radius: 3px;
+        margin-bottom: 50px;
+        padding-bottom: 25px;
+        padding: 20px;
+        padding-left: 35px;
+        width: 100%;
+        line-height: 15px;
+    }
+.prices .fa
+    {
+       color: deeppink; 
+    }
+    .wrong, .wrong .fa
+    {color: #aaa}
+    .prices h5 , .price h5
+    {
+        color: #aaa;
+        text-decoration: line-through;
+       
+    }
+    .prices p, .price p
+    {
+        text-align: left;
+        margin-top:10px;
+        font-size: 10px;
+        line-height: 15px;
+       
+    }
+    .prices button , .price button
+    {
+        border-radius: 25px;
+        width: 70%;
+        height: 11%;
+        font-size: 20px;
+        margin-top: 10px;
+       /* background-color: var(--secondary-color);
+        border-color: transparent;*/
+    } 
+    .prices button
+    {
+        border-radius: 25px;
+        width: 70%;
+        height: 11%;
+        font-size: 20px;
+        background-color: #f42494;
+        border-color: transparent;
+        margin-bottom:20px;
+    }
+    .price button
+    {
+        border-radius: 25px;
+        width: 70%;
+        height: 11%;
+        font-size: 20px;
+        background-color: #52d2ff;
+        border-color: transparent;
+        margin-bottom:50px;
+    }
+    .price
+    {
+        background-color: var(--letters-color);
+        text-align: center;
+        margin-top: 30vh;
+        margin-left: 10vw;
+        line-height: 10px;
+        border-top: 7px solid #52d2ff;
+        padding: 20px; 
+        padding-left: 30px;
+        border-radius: 3px;
+        margin-bottom: 50px;
+        width :100%;
+        box-shadow: 0 0 15px black;
+    }
+    .price .fa
+    {
+       color: #007baa; 
+    }
+    .price h2
+    {
+        margin-top: 10px;
+        font-size: 30px;
+    }
+    .ribbon-wrapper {
+      width: 80px;
+      height: 88px;
+      overflow: hidden;
+      position: absolute;
+      top: -3px;
+      left: -0px;
+    }
+  .ribbon {
+    font: bold 12px sans-serif;
+    letter-spacing: 2px;
+    color: #333;
+    text-align: center;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform:    rotate(-45deg);
+    -ms-transform:     rotate(-45deg);
+    -o-transform:      rotate(-45deg);
+    position: relative;
+    padding: 7px 0;
+    top: 15px;
+    left: -30px;
+    width: 120px;
+    background-color: #f42494;
+    color: #fff;
+  }
+.price .ribbon-wrapper {
+      width: 80px;
+      height: 88px;
+      overflow: hidden;
+      position: absolute;
+      top: -3px;
+      left: -0px;
+    }
+  .price .ribbon {
+    font: bold 12px sans-serif;
+    letter-spacing: 1px;
+    color: #333;
+    text-align: center;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform:    rotate(-45deg);
+    -ms-transform:     rotate(-45deg);
+    -o-transform:      rotate(-45deg);
+    position: relative;
+    padding: 7px 0;
+    top: 15px;
+    left: -30px;
+    width: 120px;
+    background-color: #52d2ff;
+    color: #fff;
+  }
+
+@media(max-width:700px) and (min-width:1px)
+{
+    .price,.prices
+    {
+        margin-left: 10px;
+        line-height: 35px;
+    }
+}
+
+    /*=========================================================     end Pricing  Page     ==================================================================*/
+
+
+    /*=========================================================     start requests  Page  ==================================================================*/
+.postat
+{
+    border: 1px solid var(--border-color);
+    margin-bottom: 20px;
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    line-height: 30px;
+    
+}
+.postHead
+{
+    color: var(--secondary-color);
+    font-size: 20px;
+}
+.duration
+{
+    text-align: center;
+    float: right;
+    padding: 8px;
+    background-color: var(--secondary-color);
+    color: var(--letters-color);
+    border-radius: 3px;
+    width: 40%;
+    height: 100%;
+}
+.sepcs
+{
+    padding: 10px;
+    border-radius: 3px;
+    background-color: var(--main-bg-color);
+    color: var(--letters-color);
+    text-align: center;
+}
+.apply
+{
+    background-color: var(--main-bg-color);
+    color: var(--letters-color);
+    height: 15%;
+    padding: 3px;
+    float: right;
+}
+.apply:hover
+{
+    color: var(--secondary-color);
+    background-color: var(--second-bg-color)
+}
+
+.overlay
+{
+    display: none;
+    position: fixed;
+    z-index: 10;
+    top: 0px;
+    left: 0;
+    min-width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.postForm form h2
+{
+    text-align: center;
+    margin: 10px;
+}
+.sub
+{
+    background-color: var(--secondary-color);
+    color: var(--letters-color);
+}
+.sub:hover
+{
+    background-color: var(--secondary-hover-color);
+    color: var(--second-bg-color);
+}
+.postForm
+{
+    display: none;
+    background-color: var(--letters-color);
+    position: absolute;
+    top: 120px;
+    height:80vh;
+    overflow-y:scroll;
+    padding: 10px;
+    left: 28%;
+    z-index: 11;
+    border-radius:10px;
+}
+.postForm::-webkit-scrollbar {
+    width: 0.5em;
+    border-radius:10px;
+}
+ 
+.postForm::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px var(--letters-color);
+}
+ 
+.postForm::-webkit-scrollbar-thumb {
+  background-color: var(--second-bg-color);
+  border-radius:10px;
+  outline: 1px solid slategrey;
+}
+.postForm input,.postForm textarea,.postForm select
+{
+    width: 100%;
+    min-height: 50px;
+    border: 1.5px solid var(--border-color);
+    border-radius: 5px;
+}
+.termsContent
+{
+    width: 50%;
+    background-color: rgba(0,0,0,0.4);
+    padding: 15px 30px;
+    border-radius: 5px;
+    height: 150vh;
+    overflow-y: scroll;
+}
+/*=========================================================     end requests  Page      ==================================================================*/
+
+/*=========================================================     start about  Page      ==================================================================*/
+.aboutBg
+{
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: left;
+    display: flex;
+    height:60vh;
+    align-items: center;
+    justify-content: center;
+    color: var(--letters-color);
+    
+}
+.termsBg
+{
+    background-color: var(--main-bg-color);
+    text-align: left;
+    display: flex;
+    height:1370vh;
+    align-items: center;
+    justify-content: center;
+    color: var(--letters-color);
+    
+}
+.privacyBg
+{
+    background-color:var(--main-bg-color);
+    text-align: left;
+    display: flex;
+    height:300vh;
+    align-items: center;
+    justify-content: center;
+    color: var(--letters-color);
+    
+}
+.aboutBg h1
+{
+    text-align: center;
+}
+.aboutContent
+{
+    width: 50%;
+    background-color: rgba(0,0,0,0.4);
+    padding: 15px 30px;
+    border-radius: 5px;
+}
+@media (max-width:400px) and (min-width:1px)
+{
+    .aboutContent
+    {
+        width: 100%;
+        background-color: rgba(0,0,0,0.7);
+        padding: 5px 5px;
+        border-radius: 5px;
+        font-size: 15px;
+    }
+    .aboutBg
+    {
+    height: 80vh;
+    
+    }
+    .privacyBg
+    {
+        height:650vh;
+    }
+    .termsBg
+    {
+        height:3850vh;
+    }
+}
+/*=========================================================     end about  Page      ==================================================================*/
+/*=========================================================     start Jobs  Page      ==================================================================*/
+
+.coverPhotoJobs
+    {
+        background-image: url(../img/banner.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        min-width: 100%;
+        min-height: 300px;
+        padding: 5%;
+        font-size: 25px;
+        color: var(--main-bg-color);
+    }
+    .coverPhotoJobs .postHead
+    {
+        font-size: 40px;
+        font-weight: bolder;
+    }
+.app
+{
+    color: var(--letters-color);
+    background-color: var(--main-bg-color);
+    float: right;
+    font-size: 20px;
+    padding: 10px 20px;
+    margin-right: 11%; 
+}
+.app:hover
+{
+    background-color: var(--second-bg-color);
+    color: var(--secondary-color);
+}
+.title
+{
+    width: 100%;
+    color: var(--letters-color);
+    background-color: var(--main-bg-color);
+    font-size: 15px;
+    padding: 5px;
+    border-bottom: 1px solid var(--border-color);
+    margin-bottom: 30px;
+}
+.postDetails
+{
+    color: var(--letters-color);
+    background-color: var(--main-bg-color);
+    margin-bottom: 20px;
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-right: 30px;  
+    text-align: left;
+}
+.postDetails .postDate, .postDetails .postHead  
+{
+    font-size: 25px;
+}
+.main-container-jobs .form-group
+{
+    border: 1px solid var(--border-color);
+    color: var(--letters-color);
+    padding: 5%;
+    margin-bottom: 20px;
+}
+.main-container-jobs .form-group img
+{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.main-container-jobs .form-group label
+{
+   color: var(--secondary-hover-color)
+}
+/*=========================================================     end Jobs  Page      ==================================================================*/
+			
